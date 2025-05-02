@@ -23,4 +23,4 @@ jobs:
         run: docker build -t ghcr.io/paulalopesdeveloper/github-actions-hello-test:latest .
 
       - name: Push Docker image
-        run: docker push ghcr.io/ghcr.io/paulalopesdeveloper/github-actions-hello-test:latest
+        run: docker push ghcr.io/paulalopesdeveloper/github-actions-hello-test:latest
